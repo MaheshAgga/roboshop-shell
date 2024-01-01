@@ -60,7 +60,7 @@ else
     echo -e "roboshop user already exist $Y SKIPPING $N"
 fi
 
-VALIDATE $? "creating user"
+
 
 rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*" &>> $LOGFILE
 

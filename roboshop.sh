@@ -1,7 +1,7 @@
 #!/bin/bash
 
 AMI=ami-03265a0778a880afb
-SG_ID=sg-0b5de2ae0602c7d99 #replace with your SG ID
+SG_ID=sg-033efb516880e3979 #replace with your SG ID
 INSTANCES=("mongodb" "redis" "mysql" "rabbitmq" "catalogue" "user" "cart" "shipping" "payment" "dispatch" "web")
 ZONE_ID=Z08017403QKS3CG4SGNHT # replace your zone ID
 DOMAIN_NAME="roboshopin.site"
